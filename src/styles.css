@@ -1,0 +1,64 @@
+.cardcomponent {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background: aqua;
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+}
+.robo-details {
+  height: 30%;
+}
+.robo-details:hover {
+  background: rgb(59, 139, 185);
+  border-radius: 10px;
+}
+.cardcomponent:hover {
+  transform: scale(1.05);
+}
+h1 {
+  text-align: center;
+  color: rgb(0, 195, 255);
+  font: bold;
+  font-family: Cambria;
+}
+
+.cardcointer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center;
+
+  gap: 30px;
+}
+.header-div {
+  align-content: center;
+  text-align: center;
+}
+
+.input-box {
+  background: rgb(159, 184, 230);
+  width: 30%;
+  height: 40px;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  text-align: center;
+  border: solid rgb(7, 69, 202);
+  text-decoration-color: darkgrey;
+}
+body {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(30, 30, 95),
+    rgb(30, 30, 95),
+    rgb(30, 30, 95),
+    rgb(62, 226, 199),
+    rgb(30, 30, 95)
+  );
+}
+.header-div {
+  background-image: linear-gradient(to top rgb(30, 30, 95), rgb(62, 226, 199));
+}
+img {
+  height: 200px;
+  width: 200px;
+}
