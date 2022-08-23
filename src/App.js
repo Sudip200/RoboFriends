@@ -1,6 +1,6 @@
 import React from "react";
 import CardList from "./CardList";
-
+import { setSearchField } from "./Actions/action";
 import SearchBox from "./SearchBox";
 import Scroll from "./Scroll";
 class App extends React.Component {
@@ -12,6 +12,7 @@ class App extends React.Component {
     };
   }
   componentDidMount() {
+    //console.log(this.props.store.getState())
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => {
         return response.json();
